@@ -9,12 +9,14 @@
  */
 function findShortestString(stringArr) {
   let shortestString = stringArr[0];
+  console.log("first assignment of shortest string=",shortestString)
   for (let str of stringArr) {
     if (str.length < shortestString.length) {
       shortestString = str;
+      console.log("iteration", shortestString)
     }
   }
-  return shortestString.length;
+  return shortestString;
 }
 
 console.log(findShortestString(["it", "is", "a", "nice", "day"]), "a");
