@@ -19,9 +19,9 @@ function findShortestString(stringArr) {
   return shortestString;
 }
 
-console.log(findShortestString(["it", "is", "a", "nice", "day"]), "a");
-console.log(findShortestString(["why", "hello", "to", "you"]), "to");
-console.log(findShortestString(["brave", "dance"]), "brave");
+// console.log(findShortestString(["it", "is", "a", "nice", "day"]), "a");
+// console.log(findShortestString(["why", "hello", "to", "you"]), "to");
+// console.log(findShortestString(["brave", "dance"]), "brave");
 
 // export findShortestString
 module.exports = findShortestString;
