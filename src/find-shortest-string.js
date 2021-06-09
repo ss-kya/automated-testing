@@ -9,11 +9,11 @@
  */
 function findShortestString(stringArr) {
   let shortestString = stringArr[0];
-  console.log("first assignment of shortest string=",shortestString)
+  console.log("first assignment of shortest string=", shortestString);
   for (let str of stringArr) {
     if (str.length < shortestString.length) {
       shortestString = str;
-      console.log("iteration", shortestString)
+      console.log("iteration", shortestString);
     }
   }
   return shortestString;
